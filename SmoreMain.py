@@ -7,10 +7,10 @@ cur = conn.cursor()
 barcode.PROVIDED_BARCODES
 ['code39', 'code128', 'ean', 'ean13', 'ean8', 'gs1', 'gtin', 'isbn', 'isbn10', 'isbn13', 'issn',
  'jan', 'pzn', 'upc', 'upca']
-account_sid = 'AC001e323b6665fca468c738c9a878cf06'  # Found on Twilio Console Dashboard
-auth_token = '32c5570f96036f8ac4872de78eafb034'  # Found on Twilio Console Dashboard
-myPhone = '8503458948'  # Phone number you used to verify your Twilio account
-TwilioNumber = '+12028318212'  # Phone number given to you by Twilio
+account_sid = 'AC001e323b6665fca468c738c9a878cf06'
+auth_token = '32c5570f96036f8ac4872de78eafb034'
+myPhone = '8503458948' 
+TwilioNumber = '+12028318212' 
 client = Client(account_sid, auth_token)
 
 def add():
